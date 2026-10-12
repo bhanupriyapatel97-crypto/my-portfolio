@@ -1,0 +1,399 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bhanupriya Patel | Portfolio</title>
+    <meta name="description" content="Bhanupriya Patel's personal portfolio, projects, skills and education.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">BP<span>.</span></a>
+
+            <button class="menu-toggle" id="menuToggle"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false">
+                ☰
+            </button>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+
+                <button class="theme-btn" id="themeToggle"
+                        aria-label="Switch to dark theme">
+                    🌙
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Home Section -->
+        <section id="home" class="hero container">
+
+            <div class="hero-content">
+                <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+
+                <h1>Hi, I'm <span>Bhanupriya Patel</span></h1>
+
+                <h2>BCA Student & Aspiring Developer</h2>
+
+                <p class="hero-text">
+                    I am a BCA student interested in web development,
+                    programming and technology. I enjoy learning new
+                    skills and building projects that help me improve
+                    my practical knowledge.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">
+                        Explore My Work
+                    </a>
+
+                    <a href="#contact" class="btn secondary-btn">
+                        Contact Me
+                    </a>
+
+                    <a href="resume.pdf" class="btn secondary-btn" download>
+                        Download Resume ↓
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/patel25bc054-cell"
+                       target="_blank" rel="noopener noreferrer">
+                        GitHub ↗
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/bhanupriya-patel-02987837b"
+                       target="_blank" rel="noopener noreferrer">
+                        LinkedIn ↗
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <img src="profile.jpeg"
+                     alt="Bhanupriya Patel"
+                     class="profile-photo"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+
+                <div class="profile-fallback">BP</div>
+
+                <div class="floating-card">
+                    💻 Learning & Building
+                </div>
+            </div>
+
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section container">
+            <p class="eyebrow">GET TO KNOW ME</p>
+
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about-card">
+                <p>
+                    Hello! I am <strong>Bhanupriya Patel</strong>,
+                    a Bachelor of Computer Applications (BCA) student
+                    at Jodhpur Institute of Engineering and Technology.
+                </p>
+
+                <p>
+                    I am interested in website development, Java
+                    programming, Python and database-related projects.
+                    I enjoy exploring new technologies and applying
+                    what I learn through practical assignments.
+                </p>
+
+                <p>
+                    My aim is to strengthen my programming skills,
+                    build useful applications and gain practical
+                    experience through projects and internships.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section alternate-bg">
+            <div class="container">
+
+                <p class="eyebrow">WHAT I WORK WITH</p>
+                <h2 class="section-title">My Skills</h2>
+
+                <p class="section-subtitle">
+                    Programming languages and technical areas I work with.
+                </p>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <span class="skill-icon">🌐</span>
+                        <h3>HTML</h3>
+                        <p>Creating webpage structure and content.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-icon">🎨</span>
+                        <h3>CSS</h3>
+                        <p>Styling websites and responsive layouts.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-icon">⚡</span>
+                        <h3>JavaScript</h3>
+                        <p>Adding interactions to websites.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-icon">☕</span>
+                        <h3>Java</h3>
+                        <p>Programming and object-oriented concepts.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-icon">🐍</span>
+                        <h3>Python</h3>
+                        <p>Building programming and library projects.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-icon">🗄️</span>
+                        <h3>Database Concepts</h3>
+                        <p>Working with student and result data projects.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section container">
+
+            <p class="eyebrow">MY WORK</p>
+            <h2 class="section-title">My Projects</h2>
+
+            <p class="section-subtitle">
+                Academic and personal projects I have worked on.
+            </p>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <span class="project-number">01</span>
+                    <h3>Restaurant Website</h3>
+                    <p>
+                        A restaurant website featuring food items,
+                        menu sections and a responsive layout.
+                    </p>
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <span class="project-number">02</span>
+                    <h3>Disk Space Management System</h3>
+                    <p>
+                        A Linux shell scripting project to check disk
+                        usage and monitor available storage.
+                    </p>
+                    <div class="tags">
+                        <span>Ubuntu</span>
+                        <span>Shell Script</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <span class="project-number">03</span>
+                    <h3>Police Siren Using 555 IC Timer</h3>
+                    <p>
+                        A hardware project exploring siren sound
+                        generation using a 555 timer integrated circuit.
+                    </p>
+                    <div class="tags">
+                        <span>Electronics</span>
+                        <span>555 IC Timer</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <span class="project-number">04</span>
+                    <h3>Student Database Management System</h3>
+                    <p>
+                        A project for organizing student records
+                        and managing student information.
+                    </p>
+                    <div class="tags">
+                        <span>Database</span>
+                        <span>Programming</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <span class="project-number">05</span>
+                    <h3>Python Library Management System</h3>
+                    <p>
+                        A Python project focused on maintaining
+                        library records and book information.
+                    </p>
+                    <div class="tags">
+                        <span>Python</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <span class="project-number">06</span>
+                    <h3>Student Result Processing System</h3>
+                    <p>
+                        A project for processing student marks
+                        and presenting academic results.
+                    </p>
+                    <div class="tags">
+                        <span>Programming</span>
+                        <span>Data Processing</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <span class="project-number">07</span>
+                    <h3>Customer Feedback Analysis</h3>
+                    <p>
+                        A project focused on organizing customer
+                        feedback and identifying common responses.
+                    </p>
+                    <div class="tags">
+                        <span>Data Analysis</span>
+                        <span>Python</span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section alternate-bg">
+            <div class="container">
+
+                <p class="eyebrow">MY ACADEMIC JOURNEY</p>
+                <h2 class="section-title">Education</h2>
+
+                <div class="education-card">
+                    <div class="education-dot"></div>
+
+                    <div>
+                        <span class="education-label">2025 – 2028</span>
+
+                        <h3>
+                            Bachelor of Computer Applications (BCA)
+                        </h3>
+
+                        <p>
+                            <strong>College:</strong>
+                            Jodhpur Institute of Engineering and Technology
+                        </p>
+
+                        <p>
+                            <strong>Study Period:</strong> 2025–2028
+                        </p>
+
+                        <p>
+                            <strong>Interests:</strong>
+                            Web Development, Java and Python
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section container">
+
+            <p class="eyebrow">LET'S CONNECT</p>
+            <h2 class="section-title">Contact Me</h2>
+
+            <p class="section-subtitle">
+                Have a project idea or an opportunity to share?
+                Feel free to contact me.
+            </p>
+
+            <div class="contact-card">
+
+                <div class="contact-item">
+                    <span>✉️</span>
+                    <div>
+                        <h3>Email</h3>
+                        <a href="mailto:bhanupriyapatel677@gmail.com">
+                            bhanupriyapatel677@gmail.com
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <span>💻</span>
+                    <div>
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/patel25bc054-cell"
+                           target="_blank" rel="noopener noreferrer">
+                            View My GitHub Profile ↗
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <span>🔗</span>
+                    <div>
+                        <h3>LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/bhanupriya-patel-02987837b"
+                           target="_blank" rel="noopener noreferrer">
+                            Connect on LinkedIn ↗
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <a class="btn primary-btn email-btn"
+               href="mailto:bhanupriyapatel677@gmail.com?subject=Portfolio%20Enquiry">
+                Send Me an Email
+            </a>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <a href="#home" class="logo">BP<span>.</span></a>
+
+            <p>Designed and built by Bhanupriya Patel.</p>
+
+            <p>
+                © <span id="year"></span>
+                Bhanupriya Patel. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
